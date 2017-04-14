@@ -1,0 +1,46 @@
+.example {
+	width: 100%;
+	border: 1px solid #000;
+	margin: 20px auto;
+}
+
+.example__header {
+	text-align: center;
+}
+
+.example__items {
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 50% 50%;
+}
+
+.example__item {
+	width: 100%;
+}
+
+.example__content {
+	height: 200px;
+}
+
+.frog, .pond {
+	width: 20%;
+	height: 20%;
+}
+
+.frog .bg, .pond .bg {
+	width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.frog .bg {
+	background-image: url(images/frog-green.svg);
+}
+
+.pond .bg {
+	background-image: url(images/lilypad-green.svg);
+}

@@ -1,0 +1,18 @@
+.example__grid .example__content {
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+
+.example__grid .pond {
+	grid-column-start: 4;
+}
+
+.example__grid-before .frog {
+	grid-column-start: 1;
+}
+
+.example__grid-after .frog {
+	grid-column-start: 3;
+}

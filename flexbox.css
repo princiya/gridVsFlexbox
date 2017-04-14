@@ -1,0 +1,12 @@
+.example__flexbox .example__content {
+	display: flex;
+	align-items: center;
+}
+
+.example__flexbox-before .example__content {
+	justify-content: space-around;
+}
+
+.example__flexbox-after .example__content {
+	justify-content: flex-end;
+}
